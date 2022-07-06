@@ -10,9 +10,6 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                echo $AWS_SECRET_KEY
-                echo $AWS_ACCESS_KEY
-
             }
         }
         stage ('prod2') {
