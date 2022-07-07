@@ -13,7 +13,7 @@ pipeline {
               sh "ls -ltr"
           }
         }
-        stage('Build') {
+        stage('Build2') {
             steps {
                 // Example AWS credentials
                 withCredentials(
